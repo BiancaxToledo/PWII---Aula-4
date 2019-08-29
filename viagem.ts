@@ -1,4 +1,4 @@
-class Viagem
+export class Viagem
 
 {
 public TempoGasto:number
