@@ -1,8 +1,9 @@
-class Aluno
+export class Aluno
 {
-    nome: string
-    constructor (nome: string)
+   
+    constructor (public nome: string) {}
+    exibir() 
     {
-    this.nome = nome
+    console.log("Nome:" + this.nome)
     }
 }
